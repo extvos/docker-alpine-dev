@@ -1,4 +1,4 @@
-FROM extvos/alpine:3.6
+FROM extvos/alpine:latest
 MAINTAINER "Mingcai SHEN <archsh@gmail.com>"
 RUN apk update && apk add --no-cache alpine-sdk && apk add --no-cache bash && apk add --no-cache docker 
 RUN apk update && apk add --no-cache tzdata \
